@@ -22,7 +22,10 @@ public class EjercicioNoveno {
 		//Mostramos el resultado al usuario
 		
 		System.out.println("¿Los dos números son iguales? : " + (numero1==numero2));
-
+		
+		//Cerramos el Scanner
+		
+		lectura.close();
 
 	}
 

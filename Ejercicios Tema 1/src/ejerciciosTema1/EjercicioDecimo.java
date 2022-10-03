@@ -20,6 +20,10 @@ public class EjercicioDecimo {
 		//Realizamos los cálculos necesarios en el mismo println y mostramos el resultado al usuario
 		
 		System.out.println("La cantidad introducida se corresponde con " + (int)(dlanzamiento*100) + (" cm"));
+		
+		//Cerramos el Scanner
+		
+		lectura.close();
 
 	}
 

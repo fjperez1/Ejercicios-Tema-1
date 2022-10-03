@@ -27,6 +27,8 @@ public class EjercicioPrimero {
 		
 		System.out.print("El resultado es " + (int)numero);
 		
+		//Cerramos el Scanner
+		
 		lectura.close();
 		
 	}

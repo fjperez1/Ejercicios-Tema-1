@@ -25,7 +25,9 @@ public class EjercicioSeptimo {
 		
 		System.out.println("La cantidad que has introducido se corresponde con " + ((distancia1/10) + distancia2 + (distancia3 * 100)) + " centimetros");
 
-
+		//Cerramos el Scanner
+		
+		lectura.close();
 	}
 
 }

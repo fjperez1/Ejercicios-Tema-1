@@ -27,6 +27,9 @@ public class EjercicioSexto {
 		
 		System.out.println("La cantidad de segundos que has introducido se corresponde con " + hor + " horas " + min + " minutos " + seg + " segundos");
 
+		//Cerramos el Scanner
+		
+		lectura.close();
 	}
 
 }

@@ -27,7 +27,10 @@ public class EjercicioOctavo {
 		//Mostramos el resultado al usuario
 		
 		System.out.println("El importe total asciende a " + ((importe>=100) ? importe*0.95:importe)+ " euros");
-
+		
+		//Cerramos el Scanner
+		
+		lectura.close();
 
 	}
 
