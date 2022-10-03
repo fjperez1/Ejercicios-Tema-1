@@ -10,22 +10,22 @@ public class EjercicioPrimero {
 
 		//Declaramos las variables que vamos a utilizar
 		
-		double numero;
-		Scanner lectura = new Scanner (System.in);
+		double numero; //La primera variable será el numero que introduce el usuario
+		Scanner lectura = new Scanner (System.in); //Iniciamos el scanner para poder guardar el número que introduzca el usuario
 		
 		
 		//Solicitamos al usuario que nos indique un numero con decimales
 		
 		System.out.print("Introduce un numero con decimales");
-		numero = lectura.nextDouble();
+		numero = lectura.nextDouble(); //Guardamos el número que ha introducido el usuario en la variable "número"
 		
 		//Realizamos los calculos necesarios
 		
-		numero += 0.5;
+		numero += 0.5; //Le sumamos 0.5 para comprobar si podemos redondear el número al siguiente entero
 		
 		//Mostramos el resultado al usuario
 		
-		System.out.print("El resultado es " + (int)numero);
+		System.out.print("El resultado es " + (int)numero); //Mostramos únicamente la parte entera del número
 		
 		//Cerramos el Scanner
 		
