@@ -9,22 +9,22 @@ public class EjercicioCuarto {
 
 		//Declaramos las variables que vamos a utilizar
 		
-		double base;
-		double altura;
-		double area;
-		Scanner lectura = new Scanner (System.in);
+		double base; //En esta variable vamos a guardar la medida en cm de la base del triángulo
+		double altura; //En esta variable vamos a guardar la altura en cm del triángulo
+		double area; //El esta variable vamos a guardar el resultado de calcular el área del triángulo
+		Scanner lectura = new Scanner (System.in); //Iniciamos el scanner
 		
 		//Solicitamos al usuario que nos indique las medidas del triángulo
 		
 		System.out.println("Introduce la base del triángulo en cm");
-		base = lectura.nextDouble();
+		base = lectura.nextDouble(); //Guardamos el valor introducido por el usuario en la variable "base"
 		
 		System.out.println("Introduce la altura del triángulo en cm");
-		altura = lectura.nextDouble();
+		altura = lectura.nextDouble(); //Guardamos el valor introducido por el usuario en la variable "altura"
 		
 		//Realizamos los cálculos necesarios
 		
-		area = ((base*altura)/2);
+		area = ((base*altura)/2); //Usamos la fórmula para calcular el área de un triángulo
 		
 		//Mostramos el resultado al usuario
 		
